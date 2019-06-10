@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>NYTimes Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+</head>
+
+<body>
+    <header>
+        New York Times Search
+    </header>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-12 ofsset-lg-4">
+                <div class="col-md-4 offset-md-4"></div>
+                <h2>Search Parameters</h2>
+
+                <form action="/action_page.php">
+                    Search Term:
+                    <br>
+                    <input name="searchTerm" type="text">
+                    <br>
+                    <br>
+                    <p>Number of Records to Retrieve: </p>
+                    <select name="records"> 
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                  </select>
+                    <br>
+                    <br>Start Year (Optional):
+                    <br>
+                    <input name="startYear" type="text">
+                    <br>
+                    <br> End Year (Optional):
+                    <br>
+                    <input name="endYear" type="text">
+
+                </form>
+
+
+                <br>
+                <button type="button" id="search">Search</button>
+                <button type="button" id="clear">Clear Results</button>
+
+
+
+
+                <div id="topArticles">
+                    <h2>Top Articles</h2>
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+            <script>
+                < src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" >
+            </script>
+
+</body>
+
+</html>
