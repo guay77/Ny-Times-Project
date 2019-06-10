@@ -1,0 +1,13 @@
+header {
+    font-size: 20px;
+    font-weight: 700;
+    color: blue;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid black;
+    text-align: center;
+}
+
+input {
+    width: 500px;
+}
